@@ -11,8 +11,8 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="305.0" prefWidth="548.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-      <Button layoutX="95.0" layoutY="226.0" mnemonicParsing="false" onAction="#encode" prefHeight="25.0" prefWidth="128.0" text="Закодировать" />
-      <Button layoutX="272.0" layoutY="226.0" mnemonicParsing="false" onAction="#decode" prefHeight="25.0" prefWidth="121.0" text="Раскодировать" />
+      <Button layoutX="95.0" layoutY="226.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="128.0" text="Закодировать" />
+      <Button layoutX="272.0" layoutY="226.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="121.0" text="Раскодировать" />
       <TextField fx:id="key" layoutX="197.0" layoutY="73.0" />
       <Label layoutX="95.0" layoutY="75.0" text="Введите ключ">
          <font>
@@ -20,6 +20,6 @@
          </font>
       </Label>
       <Label layoutX="95.0" layoutY="132.0" text="Выберите файл" />
-      <Button layoutX="197.0" layoutY="128.0" mnemonicParsing="false" onAction="#openFile" prefHeight="25.0" prefWidth="149.0" text="Открыть" />
+      <Button layoutX="197.0" layoutY="128.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0" text="Открыть" />
    </children>
 </AnchorPane>
