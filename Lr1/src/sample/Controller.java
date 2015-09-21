@@ -1,4 +1,4 @@
-package sample;
+﻿package sample;
 
 import javafx.event.ActionEvent;
 import javafx.scene.control.TextField;
@@ -50,18 +50,16 @@ public class Controller extends Window {
     public void encode(ActionEvent actionEvent) {
         Outfile = new File (file.getPath().replace("txt","k"));
         if(key.getLength() == 0)
-            code("abcdef");
+            code("qwert");
         else
             code(key.getText());
-        System.exit(0);
     }
 
     public void decode(ActionEvent actionEvent) {
         Outfile = new File (file.getPath().replace("k","txt"));
         if(key.getLength() == 0)
-            code("abcdef");
+            code("qwert");
         else
             code(key.getText());
-        System.exit(0);
     }
 }
